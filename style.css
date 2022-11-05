@@ -1,26 +1,65 @@
 body {
     display: flex;
     flex-direction: column;
+    color: white;
 }
 .firstbox {
     display: flex;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: auto;
     height: 50vh;
+    padding: 0;
+    background-color: #1F2937
 }
-.header {
+.header-box {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    border: 1px solid red;
+    align-items: flex-start;
+    /* border: 1px solid red; */
     width: 100vh;
+    flex-wrap: wrap;
 }
-.header ul {
+.header ul, .header li{
     display: flex;
     list-style: none;
-
-}
-.header-logo {
-    flex-shrink: 0;
+    gap: 2em;
+    padding: 0;
 }
 
+.header {
+    display: flex;
+    justify-content: flex-end;
+    /* align-self: center; */
+}
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    flex: 100%;
+}
+.header-2 {
+    /* border: 1px solid green; */
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.normcorp {
+    width: 200px;
+    /* border: 3px solid green; */
+}
+
+.bottom-box {
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: space-between;
+}
+.signup {
+    width: 100px;
+}
+.bottom-header {
+    flex: 0;
+}

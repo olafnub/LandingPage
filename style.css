@@ -9,7 +9,14 @@ body {
     width: auto;
     height: 50vh;
     padding: 0;
-    background-color: #1F2937
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 .header-box {
     display: flex;
@@ -25,6 +32,13 @@ body {
     list-style: none;
     gap: 2em;
     padding: 0;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.header a:hover {
+    color: lightblue;
 }
 
 .header {
@@ -44,8 +58,9 @@ body {
     padding: 0;
     margin: 0;
     width: 200px;
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: extra-bold;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 .normcorp {
     width: 200px;

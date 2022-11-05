@@ -49,6 +49,7 @@ body {
 }
 .normcorp {
     width: 200px;
+    /* margin-left: auto; */
     /* border: 3px solid green; */
 }
 
@@ -56,10 +57,15 @@ body {
     display: flex;
     /* border: 1px solid green; */
     justify-content: space-between;
+    flex: 1;
 }
 .signup {
     width: 100px;
 }
 .bottom-header {
     flex: 0;
+}
+.paragraph {
+    width: 300px;
+    /* border: 1px solid green; */
 }

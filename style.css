@@ -135,14 +135,25 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 600px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .container .quote {
+    display: flex;
+    /* justify-content: center; */
     font-weight: lighter;
     font-size: 36px;
     font-style: italic;
+    /* border: 1px solid green; */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: auto;
 }
 .container .author {
     color: #1F2937;
+    align-self: flex-end;
+    /* border: 1px solid green; */
+    margin-top: -20px;
 }

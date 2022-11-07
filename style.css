@@ -77,7 +77,7 @@ footer {
 
 .header {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     /* align-self: center; */
 }
 .top-header {
@@ -124,9 +124,9 @@ footer {
     /* border: 1px solid green; */
 }
 .box-one, .box-two, .box-three, .box-four {
-    width: 120px;
-    height: 120px;
-    border: 1px solid blue;
+    width: 170px;
+    /* height: 200px; */
+    /* border: 1px solid blue; */
     border-radius: 20px;
     text-align: center;
 }
@@ -207,7 +207,7 @@ img {
     background-color: #3e8e41;
 }
 .body-four .container button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
+    /* background-color: #3e8e41; */
+    box-shadow: 5px 5px 5px #666;
     transform:translateY(3px);
 }

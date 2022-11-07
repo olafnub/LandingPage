@@ -2,16 +2,27 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
+    padding: 0;
+    margin:0;
 }
 .firstbox {
     display: flex;
     /* border: 1px solid green; */
     width: auto;
-    height: 50vh;
-    padding: 0;
+    height: 60vh;
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+}
+.secondbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 40vh;
+    width: auto;
+    border: 2px solid red;
 
 }
 .header-logo {
@@ -57,13 +68,14 @@ body {
     /* border: 1px solid green; */
     padding: 0;
     margin: 0;
-    width: 200px;
+    /* width: 250px; */
     font-weight: extra-bold;
     font-size: 48px;
     color: #F9FAF8;
 }
 .normcorp {
     width: 200px;
+    /* flex: auto; */
     /* margin-left: auto; */
     /* border: 3px solid green; */
 }
@@ -73,9 +85,13 @@ body {
     /* border: 1px solid green; */
     justify-content: space-between;
     flex: 1;
+    /* width: 700px; */
 }
 .signup {
     width: 100px;
+}
+.signup:hover {
+    background-color: lightblue;
 }
 .bottom-header {
     flex: 0;
@@ -83,4 +99,27 @@ body {
 .paragraph {
     width: 300px;
     /* border: 1px solid green; */
+}
+.box-one, .box-two, .box-three, .box-four {
+    width: 120px;
+    height: 120px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    text-align: center;
+}
+img {
+    width: 120px;
+    border-radius: 20px;
+}
+.four-boxes {
+    display: flex;
+    /* padding: 20px; */
+    gap: 2em;
+    margin-top: 1em;
+    /* border: 1px solid green; */
+}
+.four-paragraphs {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
 }

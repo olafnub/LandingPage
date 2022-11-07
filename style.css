@@ -39,6 +39,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    font-weight: light;
+    font-size: small;
+    height: 15vh;
+    align-items: center;
+}
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
